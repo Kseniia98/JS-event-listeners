@@ -32,11 +32,17 @@ b3.addEventListener("click", button3);
 
 const text = document.getElementById('text');
 
-function func(){
+function funcOver(){
   text.innerHTML = 'second text. adipisicing elit. Quasi, explicabo'
 }
 
-text.addEventListener('mouseover', func);
+function funcOut(){
+  text.innerHTML = 'first text. Lorem ipsum dolor sit amet.';
+}
+
+text.addEventListener('mouseover', funcOver);
+text.addEventListener('mouseout', funcOut);
+
 
 ////////////////
 
