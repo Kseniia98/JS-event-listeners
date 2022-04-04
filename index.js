@@ -49,11 +49,11 @@ text.addEventListener('mouseout', funcOut);
 const text2 = document.getElementById('text_2');
 
 function func1(){
-  text2.style.color = 'red'
+  text2.className = 'text2-color'
 }
 
 function func2(){
-  text2.style.background = 'blue'
+  text2.className = 'text2-background'
 }
 
 text2.addEventListener('click', func1);

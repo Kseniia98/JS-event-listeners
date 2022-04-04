@@ -2,3 +2,11 @@
 #text_2, #text, #numb{
   margin-top: 30px;
 }
+
+.text2-color{
+  color: rgb(133, 0, 0);
+}
+
+.text2-background{
+  background: rgb(241, 229, 57);
+}
