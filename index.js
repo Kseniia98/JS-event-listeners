@@ -19,8 +19,11 @@ b2.addEventListener("click", button2);
 const numb = document.getElementById('numb');
 const b3 = document.querySelector('.b3')
 
+let num = 0;
+
 function button3(){
-  numb.innerHTML++;
+  num++;
+  numb.textContent = num;
 }
 
 b3.addEventListener("click", button3);
